@@ -4,4 +4,4 @@ all:
 	javac $(CLASSES)
 
 run:
-	java Main < in.txt
+	java Main
