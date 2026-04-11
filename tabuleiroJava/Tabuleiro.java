@@ -8,7 +8,7 @@ public class Tabuleiro {
         int k= 0;
         for(int i = 0; i < length; i++){
             for(int j=0; j<length; j++){
-                table[i][j] = Integer.parseInt(numbers[k++]);
+                table[i][j] = Integer.parseInt(numbers[k++]);//Percorro a array de strings e transformo cad npumero em inteiro
             }
         }
     }
@@ -62,6 +62,7 @@ public class Tabuleiro {
         }
     }
 
+    //Print de acordo com o formato pedido pelo professor
     public void PrintTabuleiro(){
         for(int i = 0; i < length; i++){
             for(int j = 0; j < length; j++){
@@ -87,7 +88,7 @@ public class Tabuleiro {
         System.out.println("+");
         System.out.println("");
     }
-
+    //Verifica se a solução final é a correta
     public boolean Solucao(){
         int cont = 0;
         for(int i = 0; i < length; i++){
