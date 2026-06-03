@@ -1,6 +1,7 @@
 //Arthur de Castro Dias - 16855302
 //GUilherme Cavalcanti de Santana - 15456556
 
+package grafos;
 import java.util.Scanner;
 
 public class Main {
